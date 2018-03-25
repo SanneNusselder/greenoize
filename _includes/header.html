@@ -1,11 +1,11 @@
-<aside class="">
+<aside>
   <div class="container">
     <nav>
-      <ul style>
+      <ul>
         <li> <a href="{{ "/" | prepend: site.baseurl }}"><img class="logo" src="{{ "/logo.svg" | prepend: site.baseurl }}" alt=""></a></li>
-        <li><a href="{{ "/blog" | prepend: site.baseurl }}">blog</a></li>
-        <li><a href="{{ "/about" | prepend: site.baseurl }}">about</a></li>
-        <li><a href="{{ "/contact" | prepend: site.baseurl }}">contact</a></li>
+        <li><a id="nav-a" href="{{ "/blog" | prepend: site.baseurl }}">blog</a></li>
+        <li><a id="nav-a" href="{{ "/about" | prepend: site.baseurl }}">about</a></li>
+        <li><a id="nav-a" href="{{ "/contact" | prepend: site.baseurl }}">contact</a></li>
 
       </ul>
       </li>
@@ -13,3 +13,7 @@
     </nav>
   </div>
 </aside>
+
+<header>
+	<h1><a href="{{ site.baseurl }}">{{ site.title }}</a></h1>
+</header>

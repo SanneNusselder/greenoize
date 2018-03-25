@@ -103,8 +103,24 @@ aside {
 .logo {
 	height: 2rem;
 	width: 6rem;
+	padding: 0px;
 }
 
+#nav-a {
+	padding-top: 0.75rem;
+}
+
+// General content
+header {
+	background-color: green;
+	padding: 0px 15px;
+	text-align: center;
+	margin: 50px 0 0;
+	height: 50vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 
 // Post dsiplay
 time {
